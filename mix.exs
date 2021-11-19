@@ -23,7 +23,7 @@ defmodule ExAws.S3.DirectUpload.Mixfile do
   # Dependencies
   defp deps do
     [
-      {:poison, "~> 2.0 or ~> 3.0"},
+      {:poison, ">= 2.0.0 and < 6.0.0"},
       {:ex_aws_s3, "~> 2.0.1 or ~> 2.2"},
       {:hackney, "~> 1.9"},
       {:sweet_xml, "~> 0.6"},
